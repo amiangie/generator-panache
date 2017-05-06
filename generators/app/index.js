@@ -22,11 +22,15 @@ module.exports = class extends Generator {
       this.props = props;
     });
   }
+  
+  configuring() {
+    
+  }
 
   writing() {
     this.fs.copy(
-      this.templatePath('dummyfile.txt'),
-      this.destinationPath('dummyfile.txt')
+      this.templatePath(''),
+      this.destinationPath('')
     );
   }
 
