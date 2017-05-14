@@ -1,3 +1,3 @@
-# Panache sample project
+# <%= name %>
 
-A sample project generated with [Panache](https://github.com/noel-noel/generator-panache).
+A project generated with [Panache](https://github.com/noel-noel/generator-panache).

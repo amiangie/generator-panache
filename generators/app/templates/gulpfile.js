@@ -2,8 +2,8 @@
 
 var gulp = require('gulp');
 var plugins = require('gulp-load-plugins')({ pattern: '*' });
-var config  = require('./package.json').chisel;
-var generator_config = require('./.yo-rc.json')['generator-chisel'].config;
+var config  = require('./package.json').panache;
+var generator_config = require('./.yo-rc.json')['generator-panache'].config;
 var helpers = require('./gulp/helpers')(gulp, plugins, config);
 config = require('./gulp/prepareConfig')(config);
 /**

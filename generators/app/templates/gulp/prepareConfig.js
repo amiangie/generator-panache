@@ -1,15 +1,4 @@
-
 var path = require('path');
-
-/**
-* WordPress destination paths should be inside WP template
-*/
-function prepareWpConfig(config) {
-  var dest = config.dest;
-  dest.base = path.join(dest.wordpress, 'wp-content/themes',
-    dest.wordpressTheme, dest.base);
-  return config;
-}
 
 function prepareConfig(config) {
   

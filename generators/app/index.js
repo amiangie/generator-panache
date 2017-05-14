@@ -2,35 +2,31 @@
 const Generator = require('yeoman-generator');
 const chalk = require('chalk');
 const yosay = require('yosay');
+const prompts = require('./utils/prompts');
 
 module.exports = class extends Generator {
   prompting() {
-    // Have Yeoman greet the user.
+    const done = this.async();
+
     this.log(yosay(
-      'Welcome to the groovy ' + chalk.red('generator-panache') + ' generator!'
+      "Let's kick-start your project with some " + chalk.red('panache') + "!"
     ));
 
-    const prompts = [{
-      type: 'confirm',
-      name: 'someAnswer',
-      message: 'Would you like to enable this option?',
-      default: true
-    }];
-
-    return this.prompt(prompts).then(props => {
-      // To access props later use this.props.someAnswer;
-      this.props = props;
-    });
+    this.prompt(prompts.questions).then(function (answers) {
+      prompts.setAnswers.apply(this, [answers]);
+      done();
+    }.bind(this));
   }
   
   configuring() {
-    
+     this.config.set('config', this.prompts);
   }
 
   writing() {
-    this.fs.copy(
+    this.fs.copyTpl(
       this.templatePath(''),
-      this.destinationPath('')
+      this.destinationPath(''),
+      this.prompts
     );
   }
 

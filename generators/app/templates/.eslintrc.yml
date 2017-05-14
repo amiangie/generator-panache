@@ -23,4 +23,9 @@ rules:
 
 env:
   commonjs: true
+  browser: true
 
+<% if (features.has_babel) {%>
+parserOptions:
+  sourceType: "module"
+  ecmaVersion: 6<% } %>
