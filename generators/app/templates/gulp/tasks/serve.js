@@ -6,7 +6,7 @@ var serveTask = function (gulp, plugins, config, helpers, generator_config) {
   gulp.task('serve', ['styles-watch', 'templates-watch', 'assets-watch'], function() {
     
     var browserSyncConfig = {
-      server: './',
+      server: './dist',
       online: true
     }
     
