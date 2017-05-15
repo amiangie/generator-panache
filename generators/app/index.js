@@ -31,9 +31,6 @@ module.exports = class extends Generator {
   }
 
   writing() {
-    // Copy gulp config and tasks
-    utils.generator.copyGulpFiles.call(this);
-    
     // Copy project readme
     utils.generator.copyProjectInfoFiles.call(this);
     
@@ -45,6 +42,9 @@ module.exports = class extends Generator {
     
     // Copy scripts
     utils.generator.copyScripts.call(this);
+    
+    // Copy gulp config and tasks
+    utils.generator.copyGulpFiles.call(this);
   }
 
   install() {
