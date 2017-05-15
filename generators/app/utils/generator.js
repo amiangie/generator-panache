@@ -17,7 +17,6 @@ var Generator = {
   
   copyDotFiles: function(){
     helpers.copy.call(this, '.*', '', this.prompts);
-    helpers.copy.call(this, '.gitignore', '.gitignore');
     helpers.copy.call(this, 'assets/**/.*', 'src/assets/');
   },
   
