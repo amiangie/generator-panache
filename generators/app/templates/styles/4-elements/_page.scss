@@ -3,8 +3,12 @@
 html {
   background: $color-bg;
   color: $color-text;
-  font-size: 0.875rem;
+  font-size: 62.5%;
   line-height: 2;
   padding: 1rem;
+}
+
+body {
+  font-size: 1.6rem;
 }
 
