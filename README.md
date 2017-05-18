@@ -4,14 +4,14 @@ A Yeoman generator for setting up front-end projects... with ** *panache* **
 ![](docs/gfx/panache.gif)
 
 ## Features
-**[Gulp](http://gulpjs.com/)**
-**[Browsersync](https://www.browsersync.io/)**
-**[Twig](http://twig.sensiolabs.org/)**
-**SCSS** with **[ITCSS architecture](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)**
-**[Browserify](http://browserify.org/)** with **Watchify**
-full set of **linters**
-[ **ES2015** with **[Babel](https://babeljs.io/)** ]
-[ **jQuery** ]
+- **[Gulp](http://gulpjs.com/)**
+- **[Browsersync](https://www.browsersync.io/)**
+- **[Twig](http://twig.sensiolabs.org/)**
+- **SCSS** with **[ITCSS architecture](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)**
+- **[Browserify](http://browserify.org/)** with **Watchify**
+- full set of **linters**
+- [ **ES2015** with **[Babel](https://babeljs.io/)** ]
+- [ **jQuery** ]
 
 ## Installation
 
