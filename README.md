@@ -30,4 +30,4 @@ yo panache
 
 At the moment Panache is mostly a simplified version of [Chisel](https://github.com/xfiveco/generator-chisel/) by [Xfive](https://github.com/xfiveco) with improved structure and added basic styles.
 
-Chisel and its portions in Panache as well as Panache are licensed under [MIT License](https://github.com/noel-noel/generator-panache/blob/master/LICENSE.md).
+Chisel and its portions in Panache as well as Panache are licensed under [MIT License](https://github.com/noel-noel/generator-panache/blob/master/LICENSE).
