@@ -1,28 +1,33 @@
-# generator-panache 
-> Yeoman generator for setting up front-end projects... with panache
+# Panache 
+A Yeoman generator for setting up front-end projects... with ** *panache* **
+
+![](docs/gfx/panache.gif)
+
+## Features
+**[Gulp](http://gulpjs.com/)**
+**[Browsersync](https://www.browsersync.io/)**
+**[Twig](http://twig.sensiolabs.org/)**
+**SCSS** with **[ITCSS architecture](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)**
+**[Browserify](http://browserify.org/)** with **Watchify**
+full set of **linters**
+[ **ES2015** with **[Babel](https://babeljs.io/)** ]
+[ **jQuery** ]
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-panache using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
-
 ```bash
+# install yeoman
 npm install -g yo
+
+# install panache
 npm install -g generator-panache
-```
 
-Then generate your new project:
-
-```bash
+# go to project folder and scaffold your project
 yo panache
 ```
 
-## Getting To Know Yeoman
-
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
-
 ## License
 
-unlicense © [angie]()
+At the moment Panache is mostly a simplified version of [Chisel](https://github.com/xfiveco/generator-chisel/) by [Xfive](https://github.com/xfiveco) with improved structure and added basic styles.
+
+Chisel and its portions in Panache are licensed under [MIT License](https://github.com/noel-noel/generator-panache/blob/master/LICENSE.md#chisel-mit). Panache itself is dedicated to public domain under [CC0](https://github.com/noel-noel/generator-panache/blob/master/LICENSE.md#panache-cc0).
