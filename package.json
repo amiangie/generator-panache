@@ -1,52 +1,29 @@
 {
   "name": "generator-panache",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Yeoman generator for setting up front-end projects... with panache",
   "homepage": "",
   "author": {
     "name": "angie",
     "email": "angie.badfox@gmail.com",
-    "url": ""
+    "url": "http://noel-noel.me"
   },
   "files": [
     "generators"
   ],
-  "main": "generators/index.js",
   "keywords": [
     "yeoman-generator",
+    "twig",
     "itcss",
     "sass",
+    "gulp",
     "babel"
   ],
-  "devDependencies": {
-    "yeoman-test": "^1.6.0",
-    "yeoman-assert": "^3.0.0",
-    "nsp": "^2.6.3",
-    "eslint": "^3.18.0",
-    "eslint-config-xo-space": "^0.16.0",
-    "jest": "^19.0.2",
-    "jest-cli": "^19.0.1"
-  },
   "dependencies": {
-    "yeoman-generator": "^1.0.0",
     "chalk": "^1.1.3",
+    "yeoman-generator": "^1.1.1",
     "yosay": "^2.0.0"
   },
-  "jest": {
-    "testEnvironment": "node"
-  },
-  "scripts": {
-    "prepublish": "nsp check",
-    "pretest": "eslint . --fix",
-    "test": "jest"
-  },
-  "eslintConfig": {
-    "extends": "xo-space",
-    "env": {
-      "jest": true,
-      "node": true
-    }
-  },
-  "repository": "noel-noel/generator-panache",
-  "license": "unlicense"
+  "repository": "git@github.com:noel-noel/generator-panache.git",
+  "license": "MIT"
 }
