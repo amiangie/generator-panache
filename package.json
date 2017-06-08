@@ -1,6 +1,6 @@
 {
   "name": "generator-panache",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "description": "Yeoman generator for setting up front-end projects... with panache | A simplified fork of generator-chisel",
   "homepage": "",
   "author": {
