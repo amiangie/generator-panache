@@ -26,6 +26,24 @@ npm install -g generator-panache
 yo panache
 ```
 
+## Development
+
+```bash
+# new project
+npm run dev
+```
+
+Note that you don't need to set up project again from scratch if it was previously set up with Panache. In this case, clone the project to your machine, and then run: 
+
+```
+# pre-existing project, which was set up with Panache
+npm install
+npm run build
+npm run dev
+```
+
+`npm run build` re-builds the whole project and creates new revisions of styles and scripts. `npm run dev` starts a development server, watches for changes in style, script, and template files, and recompiles them as necessary.
+
 ## License
 
 At the moment Panache is mostly a simplified version of [Chisel](https://github.com/xfiveco/generator-chisel/) by [Xfive](https://github.com/xfiveco) with improved structure and added basic styles.
