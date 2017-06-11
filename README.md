@@ -35,7 +35,7 @@ npm run dev
 
 Note that you don't need to set up project again from scratch if it was previously set up with Panache. In this case, clone the project to your machine, and then run: 
 
-```
+```bash
 # pre-existing project, which was set up with Panache
 npm install
 npm run build
